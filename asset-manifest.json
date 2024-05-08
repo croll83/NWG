@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NWG/static/css/main.d23dc0cc.css",
-    "main.js": "/NWG/static/js/main.3f54b55b.js",
+    "main.js": "/NWG/static/js/main.4331b126.js",
     "static/js/453.54f58f89.chunk.js": "/NWG/static/js/453.54f58f89.chunk.js",
     "static/media/hero-nwg.png": "/NWG/static/media/hero-nwg.b91d6d87b9516e084cb5.png",
     "static/media/nwg-logo.png": "/NWG/static/media/nwg-logo.3b7884aa87413447a91b.png",
@@ -26,11 +26,11 @@
     "static/media/slick.woff": "/NWG/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/NWG/index.html",
     "main.d23dc0cc.css.map": "/NWG/static/css/main.d23dc0cc.css.map",
-    "main.3f54b55b.js.map": "/NWG/static/js/main.3f54b55b.js.map",
+    "main.4331b126.js.map": "/NWG/static/js/main.4331b126.js.map",
     "453.54f58f89.chunk.js.map": "/NWG/static/js/453.54f58f89.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d23dc0cc.css",
-    "static/js/main.3f54b55b.js"
+    "static/js/main.4331b126.js"
   ]
 }
