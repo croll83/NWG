@@ -1,0 +1,29 @@
+.hero-section {
+  width: 100vw;                /* Full width of the viewport */
+  height: auto;                /* Auto height to adjust with the image */
+  min-height: 50vw;
+  background-position: center bottom; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background */
+  background-size: 100% auto;  /* Cover the width, auto-adjust the height */
+  display: flex;               /* Use flexbox to align child content */
+  justify-content: center;     /* Center content horizontally */
+  align-items: center;         /* Center content vertically */
+  text-align: center;          /* Align text in the center */
+  color: #0f0;                /* Set text color */
+}
+
+.hero-section h1 {
+  position: absolute;  /* Position absolutely within .hero-section */
+  top: 2em;           /* 20px from the top of the .hero-section */
+  left: 50%;           /* Center horizontally */
+  transform: translateX(-50%); /* Adjusts horizontal centering to account for h1 width */
+  width: auto;         /* Auto width based on content size */
+  margin: 0;           /* Remove any default margin */
+}
+
+.scroll-down-gif {
+  position: relative;
+  width: 10%; /* Adjust the size of the GIF as needed */
+  height: auto;
+  align-self: flex-end;
+}

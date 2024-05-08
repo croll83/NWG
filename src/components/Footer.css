@@ -1,0 +1,35 @@
+.site-footer {
+  width: 100%;
+  background-color: #333;
+  padding: 20px -20px;
+  display: flex;
+  justify-content: space-between; /* Space out the left and right sides */
+  align-items: start; /* Align items to the top */
+  color: white;
+}
+
+.footer-left {
+  text-align: left;
+  width: 60%;
+  padding: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 20px;
+  margin: 20px;
+  text-align: right;
+}
+
+.footer-links li {
+  margin-bottom: 10px; /* Space between links */
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}

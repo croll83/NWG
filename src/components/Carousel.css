@@ -1,0 +1,67 @@
+.carousel {
+  width: 80vw;      /* 80% of the viewport width */
+  margin: auto;
+  margin-bottom: 40px;
+  align-content: center;
+  text-align: center;
+}
+
+.carousel h2 {
+  text-align: center;
+  color: white;
+}
+
+.carousel h3 {
+  color: #0f0;
+}
+
+.carousel p {
+  color: #0f0;
+}
+
+.carousel a {
+  color: #0f0;
+  text-decoration: none
+}
+
+.carousel-elem {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center aligns children horizontally */
+  text-align: center; /* Center aligns text for all children */
+}
+
+.carousel-elem h3 {
+  width: 100%; /* Full width to center the text */
+}
+
+.carousel-elem .content-row {
+  display: flex; /* Enables flex layout for the content row */
+  width: 100%; /* Take full width of the container */
+  align-items: center;
+}
+
+.carousel-elem p {
+  width: 70%; /* 70% width as specified */
+  margin: 0; /* Remove default margins to control spacing precisely */
+  text-align: left;
+  margin: 0 20px 0 0;
+}
+
+.carousel-elem img {
+  width: 30%; /* 30% width as specified */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 600px) {
+    .carousel-elem p {
+        width: 100%; /* Full width */
+        margin: 0 0 10px 0; /* Bottom margin only */
+    }
+    .carousel-elem img {
+        width: 100%; /* Full width */
+    }
+    .content-row {
+        flex-direction: column; /* Stack elements vertically */
+    }
+}

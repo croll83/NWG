@@ -1,0 +1,16 @@
+.intro-section {
+  width: 80vw;      /* 80% of the viewport width */
+  margin: auto;     /* Centers the section in the viewport horizontally and vertically */
+  margin-top: 20px;
+  display: block;    /* Use flexbox for easy alignment */
+  justify-content: center; /* Horizontally center content */
+  align-items: center;     /* Vertically center content */
+  text-align: center;      /* Ensure text within the content is centered */
+  font-size: 1.3em;        /* 30% larger than the base font size */
+  color: #0f0;             /* Matrix-style green */
+  overflow: auto;          /* Adds scroll if content is larger than the box */
+}
+
+.intro-section p {
+  display: block;
+}

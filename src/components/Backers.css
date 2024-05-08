@@ -1,0 +1,39 @@
+.backers {
+  width: 80vw;      /* 80% of the viewport width */
+  margin: auto;
+  margin-bottom: 40px;
+  align-content: center;
+  text-align: center;
+}
+
+.backers-item {
+  text-align: center; /* Center content */
+  padding: 20px; /* Padding around items */
+}
+
+.backers-item a {
+  text-decoration: none;
+  color: #0f0;
+}
+
+.backers-image {
+  width: 100px; /* Fixed width for images */
+  height: 100px; /* Fixed height to maintain aspect ratio */
+  border-radius: 50%; /* Make the image circular */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+h3 {
+  margin-top: 10px; /* Space above the nickname */
+  font-size: 1.2em; /* Slightly larger text for the nickname */
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-style: italic; /* Italicize the title */
+  font-size: 0.9em; /* Smaller text for the title */
+}
